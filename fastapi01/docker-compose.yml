@@ -1,0 +1,10 @@
+version: "3"
+services:
+ db:
+   image: postegres:11-alpine
+   environment:
+      - POSTGRES_PASSWORD: localout
+      - POSTGRES_USER: localout
+      - POSTGRES_DB: localout
+   ports:
+    - 2181:2181
