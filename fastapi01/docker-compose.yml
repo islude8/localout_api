@@ -3,8 +3,8 @@ services:
  db:
    image: postegres:11-alpine
    environment:
-      - POSTGRES_PASSWORD: localout
-      - POSTGRES_USER: localout
-      - POSTGRES_DB: localout
+      - POSTGRES_PASSWORD: workout
+      - POSTGRES_USER: workout
+      - POSTGRES_DB: workout
    ports:
     - 2181:2181
